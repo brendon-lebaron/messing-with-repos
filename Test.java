@@ -1,5 +1,10 @@
 public class Test{
    public static void main(String[] args){
-      System.out.print("what's up");
+      cout("what's up");
    }
+   
+   public static void cout(String s){
+      System.out.print(s);
+   }
+   
 }
